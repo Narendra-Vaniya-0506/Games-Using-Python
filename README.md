@@ -1,75 +1,54 @@
-# 50-Games-Using-Python
-This repository is a collection of 50 simple and fun games, all created using Python. Whether you're a beginner looking to learn Python or a seasoned developer seeking inspiration, explore and enjoy a wide variety of classic and original games right here.
+# Games by code yatra
 
-# 50 Python Games Collection
+This repository contains 41 games (.py files) implemented in Python.
 
-Welcome to the 50 Python Games Collection! This repository is a compilation of 50 simple and entertaining games, all implemented using Python. Whether you're a beginner looking to learn Python or an experienced developer seeking inspiration, this diverse collection has something for everyone.
+All games are built using Python programming language.
 
-![Python Games](images/python_games.png)
+1. 2048 - This game is a number puzzle where players slide tiles to combine numbers and reach 2048.
+2. AI Tic-Tac-Toe - This game is a tic-tac-toe variant where the player competes against an AI opponent.
+3. Battleship - This game is a strategy game where players guess and sink each other's ships on a grid.
+4. Bingo - This game is a random number calling game where players mark numbers on their cards to win.
+5. Brick Breaker - This game is an arcade game where a ball bounces off a paddle to break bricks.
+6. Chess - This game is a two-player strategy board game with pieces moving on a checkered board.
+7. Connect Four - This game is a two-player game where players drop discs to connect four in a row.
+8. Crossword Puzzle - This game is a word puzzle where players fill in a grid with intersecting words.
+9. Doodle Jump - This game is a platformer where the player jumps on platforms to reach higher levels.
+10. Flappy Bird - This game is a side-scrolling game where the player controls a bird to avoid obstacles.
+11. Frogger Clone - This game is an arcade game where the player guides a frog across roads and rivers.
+12. Guess the Number - This game is a guessing game where the player tries to find a random number.
+13. Hangman with a Twist - This game is a word-guessing game with added categories and themes.
+14. Hangman - This game is a classic word-guessing game where players guess letters to form a word.
+15. Jigsaw - This game is a puzzle game where players assemble pieces to form an image.
+16. Labyrinth - This game is a maze navigation game where the player finds the exit.
+17. Ludo - This game is a board game where players race pieces around a track to the finish.
+18. Math Quiz - This game is a quiz with math questions for players to solve.
+19. Maze Solver - This game is a puzzle where the player navigates through a generated maze.
+20. Memory Match - This game is a card-matching game where players flip cards to find pairs.
+21. Minesweeper - This game is a logic puzzle where players avoid mines on a grid.
+22. Mini Golf - This game is a golf simulation with obstacles and holes to navigate.
+23. Morse Code Translator - This game is a tool that translates text to Morse code and vice versa.
+24. Pacman - This game is an arcade game where Pacman eats dots while avoiding ghosts.
+25. Pinball - This game is a simulation of a pinball machine with flippers and obstacles.
+26. Pong - This game is a classic arcade game with paddles and a bouncing ball.
+27. Rock-Paper-Scissors - This game is a hand game where players choose gestures to compete.
+28. Roulette - This game is a casino game where players bet on a spinning wheel.
+29. Scrabble - This game is a word game where players form words on a board for points.
+30. Simon Says - This game is a memory game where players follow sequences of commands.
+31. Snake - This game is an arcade game where the snake grows by eating food.
+32. Sokoban - This game is a puzzle where the player pushes boxes to targets.
+33. Space Invaders - This game is a shooter where players defend against alien invaders.
+34. Sudoku Generator - This game is a logic puzzle where players fill a grid with numbers.
+35. Tetris - This game is a tile-matching game where players arrange falling shapes.
+36. Tic-Tac-Toe - This game is a two-player grid game to get three in a row.
+37. Tower Defense - This game is a strategy game where players defend against waves of enemies.
+38. Tower of Hanoi - This game is a puzzle where players move discs between towers.
+39. Trivia Quiz - This game is a quiz with multiple-choice questions on various topics.
+40. Whack-a-Mole - This game is an arcade game where players hit popping moles.
+41. Word Search - This game is a puzzle where players find hidden words in a grid.
 
-## Table of Contents
+## Technology Used
 
-1. [Introduction](#introduction)
-2. [Games List](#games-list)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
-
-## Introduction
-
-Python is a versatile programming language, and what better way to explore its capabilities than through the world of games? This repository is a labor of love, aiming to provide a wide range of games to learn from, customize, or simply enjoy. Each game is kept simple to encourage exploration and modification.
-
-## Games List
-
-Below is the list of the 50 games included in this collection:
-
-# 50 Games
-
-1. **Guess the Number:** The computer generates a random number, and the player has to guess it.
-2. **Hangman:** A classic word-guessing game where the player tries to guess a hidden word letter by letter.
-3. **Tic-Tac-Toe:** Create a two-player tic-tac-toe game.
-4. **Rock, Paper, Scissors:** A game where the player chooses rock, paper, or scissors to compete against the computer.
-5. **Maze Solver:** Generate a random maze, and the player has to find the exit.
-6. **Snake:** Implement the classic Snake game where the snake grows longer as it eats food.
-7. **Pong:** Create a simple Pong game with two paddles and a ball.
-8. **Flappy Bird Clone:** Make a simplified version of the popular Flappy Bird game.
-9. **Memory Match:** A memory card game where players match pairs of cards.
-10. **2048:** Implement the 2048 number puzzle game.
-11. **Simon Says:** A memory game where the computer gives commands, and the player must follow.
-12. **Sudoku Solver:** Build a Sudoku puzzle generator and solver.
-13. **Connect Four:** Create a two-player Connect Four game.
-14. **Whack-a-Mole:** Moles randomly pop up, and the player must click on them.
-15. **Frogger Clone:** Recreate a simplified version of the classic Frogger game.
-16. **Hangman with a Twist:** Add categories and themes to the Hangman game.
-17. **Tower of Hanoi:** Implement the Tower of Hanoi puzzle.
-18. **Battleship:** Create a simplified version of the classic Battleship game.
-19. **Brick Breaker:** Build a game where a ball bounces off a paddle to break bricks.
-20. **Minesweeper:** Develop a Minesweeper game with different difficulty levels.
-21. **Word Search:** Generate a word search puzzle and let the player find words.
-22. **Crossword Puzzle:** Create a simple crossword puzzle generator.
-23. **Sokoban:** Build a puzzle game where the player pushes boxes to their target locations.
-24. **Ludo:** Implement a basic Ludo board game.
-25. **Chess:** Create a two-player chess game (with a simplified UI).
-26. **Bingo:** A simple bingo game where numbers are called out.
-27. **Pacman Clone:** Make a simplified version of the classic Pacman game.
-28. **Math Quiz:** Generate math questions for the player to solve.
-29. **Trivia Quiz:** Create a trivia quiz game with multiple-choice questions.
-30. **Morse Code Translator:** Build a game that translates text to Morse code and vice versa.
-31. **Tetris Clone:** Recreate a simplified version of the Tetris game.
-32. **Space Invaders Clone:** Make a simplified version of the Space Invaders game.
-33. **Doodle Jump Clone:** Recreate a simplified version of the Doodle Jump game.
-34. **Pinball:** Create a simple pinball game.
-35. **Mini Golf:** Build a mini-golf game with obstacles and holes.
-36. **Jigsaw Puzzle:** Build a jigsaw puzzle game with different images.
-37. **Scrabble:** Create a word game similar to Scrabble.
-38. **Labyrinth:** Generate a maze and let the player navigate through it.
-39. **Roulette:** Implement a simple roulette game.
-40. **Tower Defense:** Build a basic tower defense game.
-
-     
-
-Each game is stored in its respective directory within the repository.
+All games are built using Python programming language.
 
 ## Installation
 
@@ -82,10 +61,11 @@ git clone https://github.com/Narendra-Vaniya-0506/Games-Using-Python.git
 
 Navigate to the specific game directory you want to play.
 
-cd 50-Python-Games/GameName
+cd Games-Using-Python/GameName
 
 Run the Python script for that game
 
 python game_name.py
 
 
+Built with ❤️ by Code Yatra

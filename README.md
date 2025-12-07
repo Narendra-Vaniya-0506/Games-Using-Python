@@ -78,7 +78,7 @@ To run any of the games in this collection, follow these general installation st
 1. Clone this repository to your local machine using `git clone`.
 
 ```bash
-git clone https://github.com/Narendra-Vaniya-0506/50-Games-Using-Python.git
+git clone https://github.com/Narendra-Vaniya-0506/Games-Using-Python.git
 
 Navigate to the specific game directory you want to play.
 
